@@ -1,4 +1,3 @@
-//Berke Erdem c1611019
 import java.awt.Color;
 import java.awt.Font;
 import java.util.*;
@@ -82,7 +81,7 @@ public class Test{
 	
 	// Implements the game mechanism, while all squares do not have the same color lets the
 	// user press squares to change their colors.
-	// When all the squares have matching colors displays a text that says ìYou won!î
+	// When all the squares have matching colors displays a text that says ‚ÄúYou won!‚Äù
 	
 	public void play() {
 		while(!match(currentColors[0],currentColors[1],currentColors[2],currentColors[3])){
